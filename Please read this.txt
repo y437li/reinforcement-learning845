@@ -1,3 +1,13 @@
+Original readme is attached to help you setup environment
+
 Please download indoor_techno from google and place it in to unreal_envs
+
 trained imagenet are deleted due to github size restirction(bigger than 100MB)
-the training recordeds are stored in models\trained\Indoor\indoor_techno\Imagenet
+
+the training records are stored in models\trained\Indoor\indoor_techno\Imagenet
+
+config of deepQlearning and config are in configs folder
+
+deepQlearning.py in algorithms folder
+
+agent.py is in network folder

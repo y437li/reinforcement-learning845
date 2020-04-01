@@ -192,7 +192,7 @@ def minibatch_double(data_tuple, batch_size, choose, ReplayMemory, input_size, a
 
 def policy(epsilon, curr_state, iter, b, epsilon_model, wait_before_train, num_actions, agent):
     qvals=[]
-
+    #epsilon_ceil = 0.99/0.8/0.7
     epsilon_ceil=0.8
     if epsilon_model=='linear':
         epsilon = epsilon_ceil* (iter-wait_before_train) / (b-wait_before_train)
