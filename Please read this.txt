@@ -1,0 +1,3 @@
+Please download indoor_techno from google and place it in to unreal_envs
+trained imagenet are deleted due to github size restirction(bigger than 100MB)
+the training recordeds are stored in models\trained\Indoor\indoor_techno\Imagenet
